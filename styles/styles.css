@@ -1,8 +1,7 @@
 html,
 body {
-        font-family: 'Open Sans', sans-serif;
+        font-family: 'Roboto Mono', monospace;
       }
-
 .section {
     padding-top: 75px;
 }
