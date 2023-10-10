@@ -30,7 +30,7 @@ body {
 .language-wrapper img,
 .contact-wrapper a {
     height: 60px;
-    transition-duration: 0.3s;
+    
     transition-property: all;
 }
 
@@ -78,7 +78,7 @@ body {
     background-color: #eeeeee;
     color: black;
     transition-property: all;
-    transition-duration: 0.3s;
+    
 }
 
 .class-card:hover {
