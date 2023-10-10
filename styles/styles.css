@@ -1,7 +1,8 @@
 html,
 body {
-        font-family: 'Roboto Mono', monospace;
-      }
+    font-family: 'Roboto Mono', monospace;
+}
+
 .section {
     padding-top: 75px;
 }
@@ -10,17 +11,17 @@ body {
     font-size: 65px;
 }
 
-.next a {
-    color: rgb(33, 37, 41);
-}
+    .next a {
+        color: rgb(33, 37, 41);
+    }
 
 .arrow-next {
     color: var(--bs-primary) !important;
 }
 
-.arrow-next:hover {
-    color: var(--bs-primary-dark) !important;
-}
+    .arrow-next:hover {
+        color: var(--bs-primary-dark) !important;
+    }
 
 .nav-item:hover {
     background-color: var(--bs-primary-dark)
@@ -29,152 +30,149 @@ body {
 .language-wrapper img,
 .contact-wrapper a {
     height: 60px;
-    
     transition-property: all;
 }
 
-.language-wrapper img:hover,
-.contact-wrapper a:hover {
-    transform: scale(1.2);
-}
- /* Custom Card Styles */
-  .custom-card {
+    .language-wrapper img:hover,
+    .contact-wrapper a:hover {
+        transform: scale(1.2);
+    }
+/* Custom Card Styles */
+.custom-card {
     background-color: #3498db;
     border: none;
     border-radius: 10px;
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.1);
     color: #fff;
-  }
+}
 
-  .custom-card-title {
+.custom-card-title {
     font-size: 1.5rem;
     font-weight: bold;
     margin-bottom: 1rem;
-  }
+}
 
-  .custom-card-text {
+.custom-card-text {
     font-size: 1.1rem;
-  }
+}
 
-  /* Custom List Styles */
-  .custom-list {
+/* Custom List Styles */
+.custom-list {
     list-style: none;
     padding: 0;
-  }
+}
 
-  .custom-list-item {
+.custom-list-item {
     display: flex;
     align-items: center;
     margin: 0.5rem 0;
-  }
+}
 
-  .custom-icon {
+.custom-icon {
     font-size: 1.2rem;
     margin-right: 0.5rem;
-  }
+}
 
 .class-card {
     background-color: #eeeeee;
     color: black;
     transition-property: all;
-    
 }
 
-.class-card:hover {
-    background-color: var(--bs-primary);
-    color: white;
-}
+    .class-card:hover {
+        background-color: var(--bs-primary);
+        color: white;
+    }
 /* Style the contact form container */
 .card.card-body {
-  background-color: #f7f7f7;
-  border: 1px solid #e0e0e0;
-  border-radius: 10px;
+    background-color: #f7f7f7;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
 }
 
 /* Style the form labels */
 .form-label {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 /* Style the form input fields */
 .form-control {
-  border: 1px solid #ccc;
-  border-radius: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 /* Style the form submit button */
 .btn-primary {
-  background-color: #007bff;
-  border: none;
-  border-radius: 5px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
 }
 
-/* Style the submit button text */
-.btn-primary:hover {
-  background-color: #0056b3;
-  color: #fff;
-}
+    /* Style the submit button text */
+    .btn-primary:hover {
+        background-color: #0056b3;
+        color: #fff;
+    }
 
-/* Style the return to top button */
-.btn-primary.btn-back-to-top {
-  margin-top: 20px;
-}
+    /* Style the return to top button */
+    .btn-primary.btn-back-to-top {
+        margin-top: 20px;
+    }
 
 /* Style the custom card containing contact information */
 .custom-card {
-  background-color: #f7f7f7;
-  border: 1px solid #e0e0e0;
-  border-radius: 10px;
+    background-color: #00796B;
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
 }
 
 /* Style the custom card title */
 .custom-card-title {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 /* Style the custom list items */
 .custom-list-item {
-  border: none;
-  border-radius: 5px;
-  background-color: #f2f2f2;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
 }
 
 /* Style the custom list item icons */
 .custom-icon {
-  margin-right: 10px;
-  font-size: 18px;
-  color: #007bff;
+    margin-right: 10px;
+    font-size: 18px;
+    color: #007bff;
 }
 
 /* Style the custom list links */
 .custom-list-item a {
-  text-decoration: none;
-  color: #333;
+    text-decoration: none;
+    color: #333;
 }
 
 /* Style the contact form submit button */
 .btn-primary {
-  background-color: #007bff;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
 }
 
-/* Style the contact form submit button on hover */
-.btn-primary:hover {
-  background-color: #0056b3;
-}
+    /* Style the contact form submit button on hover */
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
 
 /* Style the form submit button */
 .btn-primary {
-  background-color: #007bff;
-  border: none;
-  border-radius: 5px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
 }
 
-/* Style the form submit button on hover */
-.btn-primary:hover {
-  background-color: #0056b3;
-  color: #fff;
-}
-
+    /* Style the form submit button on hover */
+    .btn-primary:hover {
+        background-color: #0056b3;
+        color: #fff;
+    }
