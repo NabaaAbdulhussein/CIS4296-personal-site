@@ -85,4 +85,97 @@ body {
     background-color: var(--bs-primary);
     color: white;
 }
+/* Style the contact form container */
+.card.card-body {
+  background-color: #f7f7f7;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+}
+
+/* Style the form labels */
+.form-label {
+  font-weight: bold;
+}
+
+/* Style the form input fields */
+.form-control {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style the form submit button */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Style the submit button text */
+.btn-primary:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+/* Style the return to top button */
+.btn-primary.btn-back-to-top {
+  margin-top: 20px;
+}
+
+/* Style the custom card containing contact information */
+.custom-card {
+  background-color: #f7f7f7;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+}
+
+/* Style the custom card title */
+.custom-card-title {
+  font-weight: bold;
+}
+
+/* Style the custom list items */
+.custom-list-item {
+  border: none;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+}
+
+/* Style the custom list item icons */
+.custom-icon {
+  margin-right: 10px;
+  font-size: 18px;
+  color: #007bff;
+}
+
+/* Style the custom list links */
+.custom-list-item a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* Style the contact form submit button */
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Style the contact form submit button on hover */
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Style the form submit button */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Style the form submit button on hover */
+.btn-primary:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
 
